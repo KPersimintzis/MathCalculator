@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: "nuget"
-          path: "$GITHUB_WORKSPACE/nuget"
+          path: "/home/runner/work/MathCalculator/MathCalculator/nuget/*"
