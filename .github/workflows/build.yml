@@ -23,7 +23,7 @@ jobs:
       - name: Packs nuget
         run: dotnet pack --no-build --no-restore --nologo --configuration Release --output $GITHUB_WORKSPACE/nuget
       - name: Binary publish
-        run: dotnet publish --no-build --no-restore --nologo --configuration Release --output $GITHUB_WORKSPACE/publish
+        run: dotnet publish --no-build --no-restore --nologo --configuration Release --output $GITHUB_WORKSPACE/publish source/**/*.csproj
       - name: Publish artifact
         uses: actions/upload-artifact@v2
         with:
