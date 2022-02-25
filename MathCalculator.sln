@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCalculator", "source\MathCalculator\MathCalculator.csproj", "{3274A11D-AA6A-4521-886B-9814321ECF3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{122168E8-C5F6-4DED-B157-3DE463AB2763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3274A11D-AA6A-4521-886B-9814321ECF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3274A11D-AA6A-4521-886B-9814321ECF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3274A11D-AA6A-4521-886B-9814321ECF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3274A11D-AA6A-4521-886B-9814321ECF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3274A11D-AA6A-4521-886B-9814321ECF3C} = {122168E8-C5F6-4DED-B157-3DE463AB2763}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1AE0B9E-8EC7-4D26-B74B-4DE3E3708894}
+	EndGlobalSection
+EndGlobal
